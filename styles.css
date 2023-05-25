@@ -1,0 +1,156 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set default font and color for the body */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #c62828;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Style the image slider */
+  .image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .image-slider img {
+    max-width: 100%;
+    height: auto;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .image-slider img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Style the features section */
+  .features {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .features li {
+    margin: 0 20px;
+  }
+  
+  /* Style the room types section */
+  .room-types {
+    text-align: center;
+  }
+  
+  .room-types h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .room-types ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 50px;
+  }
+  
+  .room-types li {
+    margin: 0 20px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .room-types img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .room-types h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .room-types p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .room-types a {
+    display: inline-block;
+    background-color: #c62828;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .room-types a:hover {
+    background-color: #333;
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
